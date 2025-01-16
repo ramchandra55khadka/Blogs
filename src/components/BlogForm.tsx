@@ -3,7 +3,7 @@ import { useBlogs } from "../shared/BlogContext";
 import { Blog } from "../types";
 
 interface BlogFormProps {
-  existingBlog?: Blog;
+  existingBlog?: Blog | null;
   onClose: () => void;
 }
 
