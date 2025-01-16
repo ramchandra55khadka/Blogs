@@ -18,10 +18,7 @@ const App = () => {
     setEditingBlog(null);
     setModalOpen(true);
   };
-  const openModelForEdit = (blog: Blog
-
-
-  ) => {
+  const openModelForEdit = (blog: Blog) => {
     setEditingBlog(blog);
     setModalOpen(true);
   };
